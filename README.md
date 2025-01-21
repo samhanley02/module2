@@ -1,4 +1,6 @@
-# INET4031 - The System Administrator's Toolbox
+# INET4031 - Module 2 - The System Administrator's Toolbox
+
+## Introductory concepts in Systems Administration
 
 Let's continue to do some more stuff like we did in Module 1 - continuing our introductory exploration of system administration.
 
