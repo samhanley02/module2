@@ -4,7 +4,11 @@
 
 Let's continue to do some more stuff like we did in Module 1 and continue our introductory exploration of system administration.
 
-The code in this repository is not used by this lab.  It is example code for those who may want to explore the Node-Red and Jupyter systems more.  
+Click on the "Wiki" link above to view directions for this Lab.
+
+The code in this repository is NOT used by this lab. Code from Lab 1 is reused.
+
+The code in this repo are example code for those who may want to explore the Node-Red and Jupyter systems more.  Reach out to the instructor if interested.
 
 **CONTEXT MATTERS**
 
