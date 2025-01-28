@@ -1,10 +1,10 @@
 # INET4031 - Module 2 - The System Administrator's Toolbox
 
-## Introductory concepts in Systems Administration
+## System Administration in Context
 
-Let's continue to do some more stuff like we did in Module 1 - continuing our introductory exploration of system administration.
+Let's continue to do some more stuff like we did in Module 1 and continue our introductory exploration of system administration.
 
-Administrators who manage servers and cloud services must be skilled in the use of many different tools and technologies.  This includes a mix of command-line and GUI-based tools. The skilled System Administrator can easily complete tasks regardless of the environment.
+The code in this repository is not used by this lab.  It is example code for those who may want to explore the Node-Red and Jupyter systems more.  
 
 **CONTEXT MATTERS**
 
