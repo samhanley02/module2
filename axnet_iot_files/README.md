@@ -1,14 +1,12 @@
 # AXNET IOT
 
-## Prototype Project for P&J Farms of Pine River
+## Internet Of Things Event Driven Archtitecture
 
-Internet of Things prototyple deployment for P & J Farms of Pine River
-
-Project source, files, etc. are here.
+Sample stuff.
 
 Sensors:
 
-Soil Moisture
-Soil Temperature
-Air Termparature
-Air Humidity
+* Soil Moisture
+* Soil Temperature
+* Air Termparature
+* Air Humidity

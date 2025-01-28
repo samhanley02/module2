@@ -1,0 +1,135 @@
+[
+    {
+        "id": "405c39a5ae2381df",
+        "type": "tab",
+        "label": "Sample Flow (Core App)",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "abede0fc27edcf6a",
+        "type": "mqtt in",
+        "z": "405c39a5ae2381df",
+        "name": "",
+        "topic": "testing",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a32f811000c92119",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 120,
+        "wires": [
+            [
+                "206e31d797c48121"
+            ]
+        ]
+    },
+    {
+        "id": "206e31d797c48121",
+        "type": "debug",
+        "z": "405c39a5ae2381df",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "3ef0282bf74cf32d",
+        "type": "mqtt in",
+        "z": "405c39a5ae2381df",
+        "name": "",
+        "topic": "pjfarms",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a32f811000c92119",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 240,
+        "wires": [
+            [
+                "a7aa67ae8ee2e61d"
+            ]
+        ]
+    },
+    {
+        "id": "a7aa67ae8ee2e61d",
+        "type": "debug",
+        "z": "405c39a5ae2381df",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5eaff056cee0fc4b",
+        "type": "comment",
+        "z": "405c39a5ae2381df",
+        "name": "Listens for the timestamp messages",
+        "info": "",
+        "x": 180,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0cfcf993a1352127",
+        "type": "comment",
+        "z": "405c39a5ae2381df",
+        "name": "Listens for IoT Data",
+        "info": "",
+        "x": 130,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a32f811000c92119",
+        "type": "mqtt-broker",
+        "name": "Joe's Broker (If you copied this flow you will need to change the IP address)",
+        "broker": "192.168.68.117",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
